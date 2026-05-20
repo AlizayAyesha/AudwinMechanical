@@ -1,0 +1,8 @@
+{
+  "name": "Audwin Mechanical",
+  "description": "Premier Mechanical, Electrical, and Plumbing (MEP) Contractors & Services providing high-end industrial and commercial engineering solutions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

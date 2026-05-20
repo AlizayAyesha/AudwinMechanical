@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audwin Mech | Premium Engineering Solutions</title>
+    <script>
+      // Workaround for environments where window.fetch is a read-only getter
+      // and some libraries try to overwrite it.
+      (function() {
+        try {
+          const originalFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: () => originalFetch,
+            set: () => { /* Prevent assignment error */ },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          console.warn('Vite/Environment Fetch Guard: Not possible or already handled.');
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

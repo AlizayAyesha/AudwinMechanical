@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Montserrat", sans-serif;
+  
+  --color-primary-navy: #020617;
+  --color-primary-blue: #3b82f6;
+  --color-primary-electric: #22d3ee;
+  --color-steel-gray: #475569;
+
+  --animate-spin-slow: spin 8s linear infinite;
+  --animate-infinite-scroll: infinite-scroll 40s linear infinite;
+
+  @keyframes infinite-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-primary-navy text-slate-200 font-sans antialiased selection:bg-primary-blue selection:text-white;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply backdrop-blur-xl bg-white/[0.03] border border-white/10;
+  }
+  .glass-card {
+    @apply backdrop-blur-xl bg-white/[0.03] border border-white/10 shadow-2xl;
+  }
+  .text-glow {
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.4);
+  }
+}
+
+/* Custom Swiper Styles */
+.swiper-pagination-bullet {
+  @apply bg-white opacity-20;
+}
+.swiper-pagination-bullet-active {
+  @apply bg-primary-blue opacity-100;
+}
+
+/* Scroll Progress */
+#scroll-progress {
+  @apply fixed top-0 left-0 h-1 bg-gradient-to-r from-primary-blue to-primary-electric z-50 transition-all duration-100;
+}
+
+/* Custom Cursor Glow */
+.cursor-glow {
+  pointer-events: none;
+  position: fixed;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  transition: opacity 0.3s;
+}
