@@ -9,13 +9,13 @@ const Chatbot = () => {
     { role: 'ai', content: 'Hello! Welcome to Audwin Mechanical. How can we help you today?' }
   ]);
 
-  const whatsappLink = "https://wa.me/15551234567?text=Hello, I would like to inquire about your MEP services.";
+  const whatsappLink = "https://wa.me/19562306949?text=Hello, I would like to inquire about your mechanical HVAC services.";
 
   const options = [
     { label: 'Request Quote', action: () => window.open(whatsappLink, '_blank') },
     { label: 'Our Services', action: () => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' }) },
     { label: 'Project Inquiry', action: () => window.open(whatsappLink, '_blank') },
-    { label: 'Contact Team', action: () => window.location.href = 'mailto:contact@audwinmech.com' }
+    { label: 'Contact Team', action: () => window.location.href = 'mailto:info@audwinmechanical.com' }
   ];
 
   return (

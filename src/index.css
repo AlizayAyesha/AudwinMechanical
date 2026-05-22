@@ -6,7 +6,9 @@
   --font-display: "Montserrat", sans-serif;
   
   --color-primary-navy: #020617;
-  --color-primary-blue: #3b82f6;
+  --color-primary-blue: #1aa7e1;
+  --color-brand-dark: #2e3192;
+  --color-brand-bright: #1aa7e1;
   --color-primary-electric: #22d3ee;
   --color-steel-gray: #475569;
 
@@ -39,10 +41,10 @@
 
 /* Custom Swiper Styles */
 .swiper-pagination-bullet {
-  @apply bg-white opacity-20;
+  @apply bg-white opacity-20 hover:opacity-40 transition-all duration-300;
 }
 .swiper-pagination-bullet-active {
-  @apply bg-primary-blue opacity-100;
+  @apply bg-primary-blue opacity-100 w-6 rounded-full! shadow-[0_0_12px_rgba(59,130,246,0.6)] transition-all duration-300;
 }
 
 /* Scroll Progress */
@@ -54,11 +56,11 @@
 .cursor-glow {
   pointer-events: none;
   position: fixed;
-  width: 600px;
-  height: 600px;
-  background: radial-gradient(circle, rgba(59, 130, 246, 0.12) 0%, transparent 70%);
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.08) 0%, transparent 70%);
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: 0;
   transition: opacity 0.3s;
 }

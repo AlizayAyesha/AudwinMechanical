@@ -161,12 +161,12 @@ const NewsletterHero = () => {
             <span className="text-[10px] font-black uppercase tracking-[0.2em] text-primary-electric">Engineering Insights 2026</span>
           </div>
           
-          <h1 className="text-5xl md:text-8xl font-display font-extrabold text-white tracking-tighter mb-8 leading-[0.9]">
+          <h1 className="text-2xl sm:text-3.5xl md:text-[36px] xl:text-[40px] font-display font-black leading-[1.12] tracking-tight text-white mb-4 uppercase">
             Stay Updated with <br />
             <span className="text-primary-blue">Audwin Mech</span> Insights
           </h1>
           
-          <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto mb-12 font-medium leading-relaxed">
+          <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 max-w-xl mx-auto font-medium">
             Subscribe to receive project updates, engineering innovations, maintenance insights, and company news directly to your inbox.
           </p>
 
@@ -420,7 +420,7 @@ const AspirationSection = () => {
 };
 
 const NewsletterPage = () => {
-  const whatsappLink = "https://wa.me/1234567890?text=Hello%20Audwin%20Mech,%20I%20would%20like%20to%20subscribe%20or%20inquire%20about%20your%20services.";
+  const whatsappLink = "https://wa.me/19562306949?text=Hello%20Audwin%20Mech,%20I%20would%20like%20to%20subscribe%20or%20inquire%20about%20your%20services.";
 
   return (
     <div className="bg-[#020617] text-white">

@@ -37,51 +37,51 @@ const WhyChooseUsPage = () => {
 
   const valueProps = [
     {
-      title: "Experienced Engineering Team",
-      desc: "Our team consists of senior mechanical and HVAC engineers with over 20 years of collective site expertise.",
-      icon: Users,
+      title: "Licensed and Insured",
+      desc: "State-compliant HVAC license & comprehensive liability coverage to protect every project site and GC partner.",
+      icon: ShieldCheck,
       color: "blue"
     },
     {
-      title: "Commercial & Industrial Expertise",
-      desc: "Specializing in large-scale infrastructure, from high-rise corporate offices to heavy manufacturing plants.",
-      icon: Building2,
+      title: "Strong GC collaboration experience",
+      desc: "Seamless alignment, proactive scheduling, and active coordinate-level communication with site managers.",
+      icon: Users,
       color: "cyan"
     },
     {
-      title: "High Quality Installation Standards",
-      desc: "Adhering to strict international engineering codes to ensure your systems perform flawlessly for decades.",
-      icon: Settings,
+      title: "Turnkey project execution",
+      desc: "Supporting your development from detailed submittals through pre-fabrication, setting, and closeout.",
+      icon: Wrench,
       color: "indigo"
     },
     {
-      title: "Fast Project Delivery",
-      desc: "Methodical planning and agile site management allow us to meet aggressive construction timelines without compromise.",
+      title: "Scheduling discipline",
+      desc: "Meticulous timeline management and rapid field execution to guarantee deadlines are met without structural delays.",
       icon: Timer,
       color: "blue"
     },
     {
-      title: "Safety & Compliance Focus",
-      desc: "OSHA-certified safety protocols integrated into every phase of our mechanical and ventilation operations.",
-      icon: ShieldCheck,
+      title: "Multi-unit project expertise",
+      desc: "Deep engineering and setting experience for multi-family, institutional, and large retail locations.",
+      icon: Building2,
       color: "cyan"
     },
     {
-      title: "Energy Efficient Solutions",
-      desc: "Implementing the latest DOAS and VRF technologies to significantly reduce your facility's operational carbon footprint.",
-      icon: Zap,
+      title: "Crane and rigging capability",
+      desc: "Professional crane lift diagrams, rigging coordination, safety supervision, and precise equipment setting.",
+      icon: Construction,
       color: "indigo"
     },
     {
-      title: "Advanced HVAC Technologies",
-      desc: "Utilizing smart building automation and IoT integration for real-time climate monitoring and management.",
-      icon: Cpu,
+      title: "Safety and QA protocols",
+      desc: "Daily on-site safety safety hazard analysis combined with robust, strict QA guidelines implementation.",
+      icon: Settings,
       color: "blue"
     },
     {
-      title: "24/7 Maintenance Support",
-      desc: "Dedicated rapid-response teams available around the clock to handle emergency repairs and critical system failures.",
-      icon: Wrench,
+      title: "Commissioning and start-up support",
+      desc: "Comprehensive startup support, point-to-point BACnet controls connection, and TAB airflow balancing validation.",
+      icon: Cpu,
       color: "cyan"
     }
   ];
@@ -96,62 +96,71 @@ const WhyChooseUsPage = () => {
     { name: "Astra Construction", logo: "https://images.unsplash.com/photo-1577733966973-d680bdeb2c17?auto=format&fit=crop&q=80&w=100", desc: "Collaborating on futuristic green-tech corporate headquarters." }
   ];
 
-  const categories = ['All', 'HVAC', 'Commercial', 'Industrial', 'Ventilation', 'Plumbing', 'Mechanical'];
+  const categories = ['All', 'Commercial', 'Mechanical'];
 
   const allProjects = [
     {
-      title: "Skyline Tower HVAC",
-      category: "HVAC",
-      location: "New York, NY",
-      type: "High-Rise Commercial",
-      status: "Completed",
-      img: "https://images.unsplash.com/photo-1517420812314-8549b17939df?auto=format&fit=crop&q=80&w=800",
-      desc: "Full installation of multi-zone VRF systems for a 60-story luxury residence."
-    },
-    {
-      title: "BioTech Cleanroom Ventilation",
-      category: "Ventilation",
-      location: "Boston, MA",
-      type: "Laboratory",
-      status: "Completed",
-      img: "/src/assets/images/ventilation_project_1779260500000_png_1779260401634.png",
-      desc: "Precision HEPA filtration and pressure-balanced air systems for pharmaceutical labs."
-    },
-    {
-      title: "Industrial Chillers Hub",
-      category: "Industrial",
-      location: "Chicago, IL",
-      type: "Manufacturing Plant",
+      title: "Spikes Ford Service Shop Expansion",
+      category: "Mechanical",
+      location: "Mission, TX",
+      type: "Commercial HVAC",
       status: "In Progress",
       img: "/src/assets/images/industrial_hvac_system_1779256174803.png",
-      desc: "Custom water-cooled chiller plant installation for large-scale production cooling."
+      desc: "Comprehensive shop expansion project. Value: $197,200. Targeted completion: June 2026."
     },
     {
-      title: "Nexus Mall Mechanical Plant",
+      title: "dd’s Discount Retail Build-Out",
+      category: "Commercial",
+      location: "Edinburg, TX",
+      type: "Retail Centers",
+      status: "In Progress",
+      img: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800",
+      desc: "Full turnkey retail HVAC and ductwork fabrication system. Value: $302,000. Targeted completion: June 2026."
+    },
+    {
+      title: "Michael Kors Outlet Store",
+      category: "Commercial",
+      location: "Mercedes, TX",
+      type: "Retail Stores",
+      status: "In Progress",
+      img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800",
+      desc: "High-spec retail environment cooling and zone balancing setup. Value: $31,500. Targeted completion: June 2026."
+    },
+    {
+      title: "Foot Locker Store Setup",
+      category: "Commercial",
+      location: "Brownsville, TX",
+      type: "Retail Stores",
+      status: "In Progress",
+      img: "https://images.unsplash.com/photo-1517420812314-8549b17939df?auto=format&fit=crop&q=80&w=800",
+      desc: "Rooftop unit installation, controls integration, and air-distribution. Value: $51,000. Targeted completion: June 2026."
+    },
+    {
+      title: "Marine Military Academy Repair",
       category: "Mechanical",
-      location: "Dallas, TX",
-      type: "Retail Center",
+      location: "Harlingen, TX",
+      type: "Institutional",
+      status: "Completed",
+      img: "/src/assets/images/ventilation_project_1779260500000_png_1779260401634.png",
+      desc: "Full HVAC insulation rehabilitation and system mechanical repair scope completed in Summer 2025."
+    },
+    {
+      title: "O’Reilly Auto Parts New System",
+      category: "Commercial",
+      location: "Texas",
+      type: "Automotive Retail",
       status: "Completed",
       img: "/src/assets/images/commercial_chillers_room_1779256198807.png",
-      desc: "Comprehensive mechanical room design including pumps, boilers, and controls."
+      desc: "Complete mechanical installation project delivering energy-efficient turnkey HVAC operation."
     },
     {
-      title: "Grand Plaza Plumbing",
-      category: "Plumbing",
-      location: "Miami, FL",
-      type: "Hospitality",
+      title: "Crystal City Housing Authority Units",
+      category: "Mechanical",
+      location: "Crystal City, TX",
+      type: "Multi-Family",
       status: "Completed",
       img: "/src/assets/images/plumbing_infrastructure_1779260400000_png_1779260379501.png",
-      desc: "High-capacity hot and chilled water distribution systems for a 5-star hotel."
-    },
-    {
-      title: "Oracle Office Complex",
-      category: "Commercial",
-      location: "Austin, TX",
-      type: "Corporate Headquarters",
-      status: "Completed",
-      img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800",
-      desc: "Smart building HVAC integration with real-time occupancy-based climate control."
+      desc: "Complete mechanical installation of ten high-performance 2-ton climate systems in coordination with JR Construction."
     }
   ];
 
@@ -197,25 +206,40 @@ const WhyChooseUsPage = () => {
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-blue/10 border border-primary-blue/20 text-primary-blue text-[10px] font-black uppercase tracking-[0.2em] mb-8">
               <Sparkles className="w-3.5 h-3.5" /> Excellence Guaranteed
             </span>
-            <h1 className="text-5xl md:text-8xl font-display font-extrabold tracking-tighter mb-8 leading-[1.05]">
-              The <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Audwin Advantage</span>
+            <h1 className="text-2xl sm:text-3.5xl md:text-[36px] xl:text-[40px] font-display font-black leading-[1.12] tracking-tight text-white mb-4 uppercase">
+              WHY CHOOSE AUDWIN MECHANICAL FOR YOUR CONTRACTOR / GC NEEDS?
             </h1>
-            <p className="text-slate-400 text-xl max-w-2xl mx-auto font-medium leading-relaxed">
-              We redefine mechanical engineering through precision, innovation, and an unwavering commitment to operational excellence.
+            <h3 className="text-lg font-bold text-primary-blue uppercase tracking-widest mb-6">
+              Turnkey HVAC & Mechanical Solutions for Contractors
+            </h3>
+            <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 max-w-2xl mx-auto font-medium">
+              Audwin Mechanical specializes in complete mechanical scopes for commercial, institutional, municipal, and multi-family construction projects across Texas.
             </p>
           </motion.div>
         </div>
       </section>
 
       {/* ━━━━━━━━━━━━━━━━━━━━ WHY AUDWIN MECH ━━━━━━━━━━━━━━━━━━━━ */}
-      <section id="why-audwin" className="py-32 px-6 relative">
-        <div className="max-w-7xl mx-auto">
+      <section id="why-audwin" className="py-32 px-6 bg-[#0a0a0f] relative overflow-hidden">
+        {/* Minimal Blueprint Grid overlay */}
+        <div 
+          className="absolute inset-0 opacity-[0.02] pointer-events-none z-0" 
+          style={{ 
+            backgroundImage: 'linear-gradient(to right, #1aa7e1 1px, transparent 1px), linear-gradient(to bottom, #1aa7e1 1px, transparent 1px)',
+            backgroundSize: '45px 45px' 
+          }} 
+        />
+        
+        {/* Glowing backdrop circle */}
+        <div className="absolute top-1/4 left-1/3 -translate-x-1/2 w-[600px] h-[600px] bg-[#1aa7e1]/5 rounded-full blur-[140px] pointer-events-none z-0" />
+
+        <div className="max-w-7xl mx-auto relative z-10">
           <SectionHeading 
-            title="Premium Value Propositions" 
-            subtitle="Engineered for efficiency, safety, and longevity. Discover how our holistic approach sets a new benchmark in industrial mechanical solutions."
+            title="Turnkey HVAC & Mechanical Solutions" 
+            subtitle="We provide full system installation, demolition, duct fabrication, equipment setting, controls, start-up, and TAB coordination. Audwin Mechanical specializes in complete mechanical scopes for commercial, institutional, municipal, and multi-family construction projects across Texas."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {valueProps.map((prop, i) => (
               <motion.div
                 key={i}
@@ -224,22 +248,29 @@ const WhyChooseUsPage = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 whileHover={{ y: -10 }}
-                className="glass-card p-8 rounded-[40px] border-white/5 hover:border-primary-blue/30 transition-all duration-500 group relative overflow-hidden"
+                className="bg-white/[0.02] backdrop-blur-md p-8 rounded-[32px] border border-white/10 hover:border-[#1aa7e1]/30 transition-all duration-500 group relative overflow-hidden shadow-2xl hover:shadow-[0_15px_40px_rgba(26,167,225,0.15)]"
               >
-                {/* Animated Background Glow */}
-                <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-primary-blue/5 blur-[50px] group-hover:bg-primary-blue/10 transition-colors" />
+                {/* Top Animated Color Bar Gradient Line */}
+                <span className="absolute top-0 inset-x-0 h-[3px] bg-gradient-to-r from-[#2e3192] to-[#1aa7e1] scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
 
-                <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center mb-8 group-hover:bg-primary-blue group-hover:scale-110 transition-all shadow-2xl">
-                  <prop.icon className="w-7 h-7 text-primary-blue group-hover:text-white" />
+                {/* Animated Background Glow */}
+                <div className="absolute -bottom-10 -right-10 w-32 h-32 bg-[#1aa7e1]/5 blur-[40px] group-hover:bg-[#1aa7e1]/10 transition-colors" />
+
+                <div className="w-14 h-14 rounded-2xl bg-white/5 flex items-center justify-center mb-8 group-hover:bg-gradient-to-br group-hover:from-[#2e3192] group-hover:to-[#1aa7e1] group-hover:scale-110 transition-all duration-500 shadow-2xl border border-white/5">
+                  <prop.icon className="w-6 h-6 text-[#1aa7e1] group-hover:text-white transition-colors duration-500" />
                 </div>
-                <h3 className="text-xl font-display font-extrabold mb-4 tracking-tight group-hover:text-primary-blue transition-colors">{prop.title}</h3>
-                <p className="text-slate-500 text-sm leading-relaxed font-medium group-hover:text-slate-300 transition-colors">
+                
+                <h3 className="text-lg font-display font-extrabold mb-4 tracking-tight group-hover:text-[#1aa7e1] transition-colors duration-300 uppercase leading-snug">
+                  {prop.title}
+                </h3>
+                
+                <p className="text-slate-400 text-xs sm:text-sm leading-relaxed font-medium group-hover:text-slate-300 transition-colors duration-300">
                   {prop.desc}
                 </p>
 
                 {/* Corner Accents */}
-                <div className="absolute top-6 right-6 opacity-10 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all">
-                  <ArrowRight className="w-4 h-4 text-primary-blue" />
+                <div className="absolute top-6 right-6 opacity-20 group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all">
+                  <ArrowRight className="w-4 h-4 text-[#1aa7e1]" />
                 </div>
               </motion.div>
             ))}
@@ -248,52 +279,75 @@ const WhyChooseUsPage = () => {
       </section>
 
       {/* ━━━━━━━━━━━━━━━━━━━━ OUR PARTNERS ━━━━━━━━━━━━━━━━━━━━ */}
-      <section className="py-32 px-6 bg-[#01040f] border-y border-white/5 overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-display font-extrabold tracking-tighter text-white">Trusted Industry <span className="text-primary-blue">Partners</span></h2>
+      <section className="py-24 px-6 bg-[#0d132c] relative overflow-hidden">
+        {/* Top/Bottom premium thin glowing borders */}
+        <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#1aa7e1]/20 to-transparent" />
+        <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-[#1aa7e1]/25 to-transparent" />
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="text-center mb-12">
+            <span className="text-[#1aa7e1] font-mono font-black text-[10px] uppercase tracking-[0.3em] block mb-3">AUTHORIZED CERTIFICATIONS</span>
+            <h2 className="text-2xl md:text-4xl font-display font-extrabold tracking-tighter text-white uppercase">
+              Trusted Industry <span className="text-[#1aa7e1]">Partners</span>
+            </h2>
           </div>
 
           <div className="relative overflow-hidden group">
             {/* Logo Slider Track */}
-            <div className="flex gap-20 py-10 animate-infinite-scroll group-hover:pause">
+            <div className="flex gap-16 py-6 animate-infinite-scroll group-hover:pause">
               {[...partners, ...partners].map((partner, i) => (
-                <div key={i} className="flex-shrink-0 w-48 h-24 glass flex items-center justify-center rounded-2xl border-white/5 hover:border-primary-blue/30 grayscale hover:grayscale-0 transition-all duration-500">
-                  <span className="text-lg font-display font-black text-slate-500 hover:text-white transition-colors">{partner}</span>
+                <div 
+                  key={i} 
+                  className="flex-shrink-0 w-44 h-20 bg-[#0a0f24]/60 backdrop-blur-md flex items-center justify-center rounded-2xl border border-white/10 hover:border-[#1aa7e1]/40 grayscale hover:grayscale-0 transition-all duration-300 relative group/logo shadow-lg hover:shadow-[0_0_25px_rgba(26,167,225,0.15)]"
+                >
+                  <span className="text-base font-display font-black text-slate-500 group-hover/logo:text-white transition-colors tracking-tight select-none">
+                    {partner}
+                  </span>
+                  
+                  {/* Subtle highlight glow under active logos */}
+                  <span className="absolute bottom-2 w-8 h-[2px] bg-[#1aa7e1]/80 rounded-full opacity-0 group-hover/logo:opacity-100 transition-opacity duration-300 shadow-[0_0_8px_#1aa7e1]" />
                 </div>
               ))}
             </div>
+            
             {/* Gradient Masks */}
-            <div className="absolute inset-y-0 left-0 w-60 bg-gradient-to-r from-[#01040f] to-transparent z-10 pointer-events-none" />
-            <div className="absolute inset-y-0 right-0 w-60 bg-gradient-to-l from-[#01040f] to-transparent z-10 pointer-events-none" />
+            <div className="absolute inset-y-0 left-0 w-48 bg-gradient-to-r from-[#0d132c] to-transparent z-10 pointer-events-none" />
+            <div className="absolute inset-y-0 right-0 w-48 bg-gradient-to-l from-[#0d132c] to-transparent z-10 pointer-events-none" />
           </div>
         </div>
       </section>
 
       {/* ━━━━━━━━━━━━━━━━━━━━ GENERAL CONTRACTORS ━━━━━━━━━━━━━━━━━━━━ */}
-      <section className="py-32 px-6 relative">
-        <div className="absolute inset-0 opacity-[0.02] pointer-events-none" style={{ backgroundImage: 'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)', backgroundSize: '60px 60px' }} />
-        <div className="max-w-7xl mx-auto">
-          <div className="flex flex-col lg:flex-row items-center gap-20 mb-24">
+      <section className="py-32 px-6 bg-[#0e142e] relative overflow-hidden">
+        {/* Cinematic grid lines in background */}
+        <div className="absolute inset-0 opacity-[0.02] pointer-events-none" style={{ backgroundImage: 'linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px)', backgroundSize: '50px 50px' }} />
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-[#2e3192]/10 rounded-full blur-[140px] pointer-events-none" />
+
+        <div className="max-w-7xl mx-auto relative z-10">
+          <div className="flex flex-col lg:flex-row items-center gap-20 mb-12">
              <motion.div 
                initial={{ opacity: 0, x: -50 }}
                whileInView={{ opacity: 1, x: 0 }}
                className="lg:w-1/2"
              >
-                <div className="w-16 h-1 w bg-primary-blue mb-8 rounded-full" />
-                <h2 className="text-4xl md:text-6xl font-display font-extrabold tracking-tighter mb-8">Seamless <span className="text-primary-blue">Contractor Collaboration</span></h2>
-                <p className="text-slate-400 text-lg leading-relaxed font-medium mb-10">
-                  We collaborate with leading general contractors to deliver high-performance mechanical and HVAC solutions across commercial and industrial projects. Our focus is on technical synergy and site safety.
+                <div className="w-16 h-1 bg-[#1aa7e1] mb-8 rounded-full shadow-[0_0_12px_#1aa7e1]" />
+                <span className="text-[#1aa7e1] font-mono font-black text-[10px] uppercase tracking-[0.3em] block mb-3">COLLABORATIVE SYNERGY</span>
+                <h2 className="text-3xl md:text-5xl font-display font-black text-white leading-tight uppercase tracking-tight mb-6">
+                  Seamless <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#1aa7e1] to-white/90">Contractor Collaboration</span>
+                </h2>
+                <p className="text-slate-400 text-sm md:text-base leading-relaxed font-medium mb-10">
+                  We collaborate with Texas's leading general contractors to deliver high-performance mechanical and HVAC solutions across commercial and industrial projects. Our focus is on absolute technical compliance, safety, and project synergy.
                 </p>
+                
                 <div className="flex items-center gap-6">
-                  <div className="flex -space-x-4">
+                  <div className="flex -space-x-3">
                     {[1,2,3,4].map(i => (
-                      <div key={i} className="w-12 h-12 rounded-full border-2 border-[#020617] bg-slate-800 overflow-hidden shadow-xl shadow-black/50">
-                        <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${i}`} alt="Partner" />
+                      <div key={i} className="w-10 h-10 rounded-full border-2 border-[#0e142e] bg-slate-800 overflow-hidden shadow-xl shadow-black/50">
+                        <img src={`https://api.dicebear.com/7.x/avataaars/svg?seed=gc-${i}`} alt="Partner avatar" />
                       </div>
                     ))}
                   </div>
-                  <div className="text-sm font-bold text-slate-500 uppercase tracking-widest">50+ Global Partnerships</div>
+                  <div className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">50+ Active Partnerships</div>
                 </div>
              </motion.div>
 
@@ -304,17 +358,19 @@ const WhyChooseUsPage = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    transition={{ delay: i * 0.2 }}
-                    className="glass p-8 rounded-[32px] border-white/5 hover:border-primary-blue/20 transition-all flex items-center gap-8 group"
+                    transition={{ delay: i * 0.15 }}
+                    className="bg-white/[0.01] backdrop-blur-md p-6 rounded-[24px] border border-white/5 hover:border-[#1aa7e1]/30 transition-all duration-300 flex items-center gap-6 group hover:bg-white/[0.02]"
                   >
-                    <div className="w-20 h-20 rounded-2xl bg-white/5 overflow-hidden border border-white/10 shrink-0 group-hover:scale-110 transition-transform">
-                      <img src={gc.logo} alt={gc.name} className="w-full h-full object-cover opacity-60 group-hover:opacity-100 transition-opacity" />
+                    <div className="w-16 h-16 rounded-xl bg-slate-900 overflow-hidden border border-white/10 shrink-0 group-hover:scale-105 transition-all duration-300 relative">
+                      <img src={gc.logo} alt={gc.name} className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-300" />
+                      {/* Deep cinematic overlay */}
+                      <div className="absolute inset-0 bg-blue-900/10 group-hover:bg-transparent transition-colors duration-300" />
                     </div>
                     <div>
-                      <h4 className="text-xl font-display font-extrabold text-white mb-2 tracking-tight group-hover:text-primary-blue transition-colors">{gc.name}</h4>
-                      <p className="text-slate-500 text-sm font-medium">{gc.desc}</p>
+                      <h4 className="text-base font-display font-extrabold text-white mb-1 tracking-tight group-hover:text-[#1aa7e1] transition-colors duration-300 uppercase">{gc.name}</h4>
+                      <p className="text-slate-500 text-xs font-medium leading-relaxed">{gc.desc}</p>
                     </div>
-                    <ExternalLink className="w-5 h-5 ml-auto text-white/20 group-hover:text-primary-blue transition-colors" />
+                    <ExternalLink className="w-4 h-4 ml-auto text-slate-600 group-hover:text-[#1aa7e1] transition-colors duration-300 shrink-0" />
                   </motion.div>
                 ))}
              </div>
@@ -323,24 +379,27 @@ const WhyChooseUsPage = () => {
       </section>
 
       {/* ━━━━━━━━━━━━━━━━━━━━ ALL PROJECTS ━━━━━━━━━━━━━━━━━━━━ */}
-      <section id="projects" className="py-32 px-6 bg-[#01040f]/50 relative">
-        <div className="max-w-7xl mx-auto">
+      <section id="projects" className="py-32 px-6 bg-[#090b14] relative overflow-hidden">
+        {/* Soft radial aura */}
+        <div className="absolute top-1/2 left-0 w-[500px] h-[500px] bg-[#2e3192]/5 rounded-full blur-[160px] pointer-events-none" />
+
+        <div className="max-w-7xl mx-auto relative z-10">
           <SectionHeading 
             title="Project Portfolio" 
             subtitle="A comprehensive showcase of our engineering feats. Explore our diverse range of successful mechanical installations across multiple sectors."
           />
 
           {/* Filtering Tabs */}
-          <div className="flex flex-wrap justify-center gap-4 mb-20">
+          <div className="flex flex-wrap justify-center gap-3 mb-16">
             {categories.map((cat) => (
               <button
                 key={cat}
                 onClick={() => setActiveTab(cat)}
                 className={cn(
-                  "px-8 py-3 rounded-full text-[10px] font-black uppercase tracking-[0.2em] transition-all border",
+                  "px-6 py-2.5 rounded-xl text-[10px] font-black uppercase tracking-[0.2em] transition-all duration-300 border cursor-pointer",
                   activeTab === cat 
-                    ? "bg-primary-blue border-primary-blue text-white shadow-xl shadow-blue-600/30" 
-                    : "bg-white/5 border-white/5 text-slate-500 hover:text-white"
+                    ? "bg-[#1aa7e1] border-[#1aa7e1] text-white shadow-lg shadow-blue-500/20" 
+                    : "bg-white/[0.02] border-white/10 text-slate-400 hover:text-white hover:border-[#1aa7e1]/40"
                 )}
               >
                 {cat}
@@ -349,50 +408,59 @@ const WhyChooseUsPage = () => {
           </div>
 
           {/* Grid Layout */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <AnimatePresence mode="popLayout">
               {filteredProjects.map((project, index) => (
                 <motion.div
                   key={project.title}
                   layout
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ duration: 0.5 }}
-                  className="group relative h-[520px] rounded-[48px] overflow-hidden glass-card border-white/5"
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, scale: 0.95 }}
+                  transition={{ duration: 0.5, delay: index * 0.05 }}
+                  className="group relative h-[480px] rounded-[32px] overflow-hidden bg-[#0c0e1a] border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.7)] hover:border-[#1aa7e1]/40 transition-all duration-500"
                 >
+                  {/* Photo frame */}
                   <div className="absolute inset-0">
                     <img 
                       src={project.img} 
                       alt={project.title} 
-                      className="w-full h-full object-cover transition-transform duration-[2000ms] group-hover:scale-110 opacity-50"
+                      className="w-full h-full object-cover transition-transform duration-[1800ms] group-hover:scale-105 opacity-30 group-hover:opacity-45"
                       referrerPolicy="no-referrer"
+                      loading="lazy"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/70 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#090b14] via-[#090b14]/80 to-transparent" />
                   </div>
 
-                  <div className="relative h-full p-12 flex flex-col justify-end">
-                    <div className="flex items-center gap-3 mb-6">
-                      <span className="px-3 py-1 rounded-full bg-primary-blue/20 text-primary-blue text-[8px] font-black uppercase tracking-widest border border-primary-blue/30">
+                  {/* Corner frame visual ornament */}
+                  <span className="absolute top-4 right-4 w-6 h-6 border-t-2 border-r-2 border-white/10 group-hover:border-[#1aa7e1]/40 transition-colors" />
+
+                  <div className="relative h-full p-8 flex flex-col justify-end z-10">
+                    <div className="flex items-center gap-2.5 mb-4">
+                      <span className="px-2.5 py-1 rounded-md bg-[#1aa7e1]/10 text-[#1aa7e1] text-[8px] font-black uppercase tracking-widest border border-[#1aa7e1]/20">
                         {project.category}
                       </span>
-                      <span className="flex items-center gap-1.5 text-[8px] font-black uppercase tracking-widest text-green-400">
-                        <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" /> {project.status}
+                      <span className="flex items-center gap-1 text-[8px] font-black uppercase tracking-widest text-[#22d3ee]">
+                        <div className="w-1.5 h-1.5 rounded-full bg-[#22d3ee] animate-pulse" /> {project.status}
                       </span>
                     </div>
-                    <h3 className="text-3xl font-display font-extrabold mb-3 tracking-tighter text-white leading-tight group-hover:text-primary-blue transition-colors">
+                    
+                    <h3 className="text-xl md:text-2xl font-display font-black mb-2 tracking-tight text-white group-hover:text-[#1aa7e1] transition-colors uppercase leading-none">
                       {project.title}
                     </h3>
-                    <div className="flex items-center gap-2 text-slate-500 text-xs font-bold uppercase tracking-widest mb-6">
-                       <MapPin className="w-3.5 h-3.5 text-primary-blue" /> {project.location}
+                    
+                    <div className="flex items-center gap-1.5 text-slate-500 text-[10px] font-bold uppercase tracking-widest mb-4">
+                       <MapPin className="w-3 h-3 text-[#1aa7e1]" /> {project.location}
                     </div>
-                    <p className="text-slate-400 text-sm leading-relaxed mb-8 opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-4 group-hover:translate-y-0">
+                    
+                    <p className="text-slate-400 text-xs leading-relaxed mb-6 block font-medium opacity-90 transition-all duration-500">
                       {project.desc}
                     </p>
-                    <button className="flex items-center gap-3 text-white font-black text-[10px] uppercase tracking-[0.2em] group/btn">
+                    
+                    <button className="flex items-center gap-2.5 text-white font-black text-[9px] uppercase tracking-[0.2em] group/btn self-start">
                       View Project Details 
-                      <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center group-hover/btn:bg-primary-blue transition-colors group-hover/btn:translate-x-1 duration-300">
-                        <ArrowUpRight className="w-4 h-4" />
+                      <div className="w-6 h-6 rounded-lg bg-white/5 flex items-center justify-center group-hover/btn:bg-[#1aa7e1] transition-colors group-hover/btn:translate-x-1 duration-300">
+                        <ArrowUpRight className="w-3 w-3" />
                       </div>
                     </button>
                   </div>
@@ -404,49 +472,53 @@ const WhyChooseUsPage = () => {
       </section>
 
       {/* ━━━━━━━━━━━━━━━━━━━━ TESTIMONIALS ━━━━━━━━━━━━━━━━━━━━ */}
-      <section id="testimonials" className="py-32 px-6 relative overflow-hidden">
-        <div className="absolute bottom-0 left-0 w-full h-1/2 bg-gradient-to-t from-primary-blue/5 to-transparent pointer-events-none" />
+      <section id="testimonials" className="py-32 px-6 bg-[#0c122e] relative overflow-hidden">
+        {/* Glowing visual backdrop */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] bg-[#1aa7e1]/5 rounded-full blur-[160px] pointer-events-none" />
+
         <div className="max-w-7xl mx-auto relative z-10">
           <SectionHeading 
             title="Industry Validation" 
             subtitle="Don't just take our word for it—listen to the industry giants who rely on Audwin Mech for their most complex mechanical requirements."
           />
 
-          <div className="mt-20">
+          <div className="mt-16">
             <Swiper
               modules={[Autoplay, Pagination, Navigation]}
-              spaceBetween={40}
+              spaceBetween={30}
               slidesPerView={1}
               breakpoints={{
                 768: { slidesPerView: 2 },
                 1024: { slidesPerView: 2 }
               }}
-              autoplay={{ delay: 5000 }}
+              autoplay={{ delay: 6000 }}
               pagination={{ clickable: true }}
               className="testimonials-swiper !pb-20"
             >
               {testimonials.map((t, i) => (
                 <SwiperSlide key={i}>
-                  <div className="glass-card p-12 md:p-16 rounded-[48px] border-white/5 shadow-2xl relative group h-full">
-                    <Quote className="absolute top-10 right-10 w-16 h-16 text-primary-blue opacity-[0.05] group-hover:opacity-10 transition-opacity" />
+                  <div className="bg-[#0a0f24]/75 backdrop-blur-md p-10 md:p-14 rounded-[32px] border border-white/10 shadow-[0_15px_40px_rgba(0,0,0,0.4)] hover:shadow-[0_20px_50px_rgba(26,167,225,0.15)] hover:border-[#1aa7e1]/40 transition-all duration-500 relative group h-full flex flex-col justify-between">
+                    <Quote className="absolute top-10 right-10 w-12 h-12 text-[#1aa7e1] opacity-[0.06] group-hover:opacity-15 transition-opacity duration-300" />
                     
-                    <div className="flex gap-1 mb-8">
-                      {[...Array(t.rating)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-yellow-500 fill-yellow-500" />
-                      ))}
+                    <div>
+                      <div className="flex gap-1 mb-6">
+                        {[...Array(t.rating)].map((_, i) => (
+                          <Star key={i} className="w-4 h-4 text-amber-400 fill-amber-400 shadow-[0_0_8px_rgba(251,191,36,0.3)]" />
+                        ))}
+                      </div>
+
+                      <p className="text-base md:text-lg text-slate-300 font-medium italic leading-relaxed mb-8">
+                        "{t.text}"
+                      </p>
                     </div>
 
-                    <p className="text-xl md:text-2xl text-slate-200 font-medium italic leading-relaxed mb-12">
-                      "{t.text}"
-                    </p>
-
-                    <div className="flex items-center gap-6 pt-10 border-t border-white/5">
-                      <div className="w-16 h-16 rounded-3xl bg-slate-800 border border-primary-blue/30 overflow-hidden shadow-xl">
+                    <div className="flex items-center gap-4 pt-6 border-t border-white/10">
+                      <div className="w-12 h-12 rounded-xl bg-slate-800 border border-[#1aa7e1]/30 overflow-hidden shadow-xl shrink-0">
                         <img src={t.avatar} alt={t.name} className="w-full h-full object-cover" />
                       </div>
                       <div>
-                        <h4 className="text-xl font-display font-extrabold text-white tracking-tight">{t.name}</h4>
-                        <p className="text-primary-blue text-[10px] font-black uppercase tracking-[0.2em] mt-1">{t.company}</p>
+                        <h4 className="text-base font-display font-extrabold text-white tracking-tight uppercase">{t.name}</h4>
+                        <p className="text-[#1aa7e1] text-[9px] font-black uppercase tracking-[0.2em] mt-0.5">{t.company}</p>
                       </div>
                     </div>
                   </div>
@@ -498,7 +570,7 @@ const WhyChooseUsPage = () => {
                  Contact Us <ArrowRight className="w-5 h-5" />
                </button>
                <a 
-                 href="https://wa.me/15551234567?text=Hello Audwin Mech, I would like to discuss your engineering and HVAC services."
+                 href="https://wa.me/19562306949?text=Hello Audwin Mech, I would like to discuss your engineering and HVAC services."
                  target="_blank"
                  className="w-full md:w-auto glass hover:bg-white/10 text-white px-16 py-6 rounded-2xl font-black uppercase tracking-[0.2em] flex items-center justify-center gap-4 transition-all transform hover:scale-105 border-white/10 text-xs"
                >
@@ -511,7 +583,7 @@ const WhyChooseUsPage = () => {
 
       {/* ━━━━━━━━━━━━━━━━━━━━ WHATSAPP FLOATING ━━━━━━━━━━━━━━━━━━━━ */}
       <a 
-        href="https://wa.me/15551234567?text=Hello Audwin Mech, I would like to discuss your engineering and HVAC services."
+        href="https://wa.me/19562306949?text=Hello Audwin Mech, I would like to discuss your engineering and HVAC services."
         target="_blank"
         className="fixed bottom-10 right-10 z-[60] w-16 h-16 bg-[#25D366] rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all group"
       >

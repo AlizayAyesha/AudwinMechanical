@@ -46,11 +46,9 @@ const Navbar = () => {
 
   const navLinks = [
     { name: 'Home', href: '/' },
-    { name: 'About', href: '/#about' },
     { name: 'Services', href: '/services' },
     { name: 'Why Choose Us', href: '/why-choose-us' },
     { name: 'Newsletter', href: '/newsletter' },
-    { name: 'Contact', href: '/#contact' },
   ];
 
   const isActive = (path: string) => {
@@ -155,7 +153,7 @@ const Footer = () => {
             <span className="text-xl font-display font-extrabold tracking-tighter">AUDWIN<span className="text-primary-blue">MECH</span></span>
           </div>
           <p className="text-slate-400 mb-8 leading-relaxed font-medium">
-            Next-generation mechanical engineering solutions for a sustainable future. Redefining commercial and industrial infrastructure with smart systems.
+            Audwin Mechanical provides turnkey mechanical systems for general contractors, architects, city municipalities, developers, and commercial clients throughout the State of Texas.
           </p>
           <div className="flex gap-4">
             {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
@@ -193,15 +191,15 @@ const Footer = () => {
           <ul className="space-y-4 text-gray-400">
             <li className="flex items-start gap-3">
               <MapPin className="w-5 h-5 text-primary-blue shrink-0" />
-              <span>123 Enterprise Way, Engineering District, NY 10001</span>
+              <span>22045 Crossett Rd, Harlingen, TX, USA</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-5 h-5 text-primary-blue shrink-0" />
-              <span>+1 (555) 123-4567</span>
+              <span>956-230-6949</span>
             </li>
             <li className="flex items-center gap-3">
               <Mail className="w-5 h-5 text-primary-blue shrink-0" />
-              <span>contact@audwinmech.com</span>
+              <span>info@audwinmechanical.com</span>
             </li>
           </ul>
         </div>

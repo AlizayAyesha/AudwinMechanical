@@ -58,11 +58,11 @@ const ServicesHero = () => (
           <Sparkles className="w-3.5 h-3.5 animate-pulse" /> Engineering Precision
         </motion.div>
         
-        <h1 className="text-5xl md:text-8xl font-display font-extrabold leading-[1.05] mb-8 tracking-tighter text-white">
+        <h1 className="text-2xl sm:text-3.5xl md:text-[36px] xl:text-[40px] font-display font-black leading-[1.12] tracking-tight text-white mb-4 uppercase">
           Advanced <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Mechanical Solutions</span>
         </h1>
         
-        <p className="text-lg md:text-xl text-slate-400 mb-12 leading-relaxed max-w-2xl font-medium">
+        <p className="text-slate-400 text-xs sm:text-sm leading-relaxed mb-6 max-w-xl font-medium">
           Precision-driven commercial HVAC, ventilation, piping, controls, and industrial mechanical systems engineered for performance, reliability, and long-term efficiency.
         </p>
 
@@ -100,63 +100,63 @@ const ServicesGrid = () => {
     {
       title: "Packaged Rooftop Units (RTUs)",
       icon: Building2,
-      desc: "High-performance rooftop HVAC systems engineered for commercial climate control, energy efficiency, and operational reliability.",
+      desc: "Installation of 5–50 ton commercial RTUs including curb adapters, rigging, crane lifts, gas piping, controls reconnection, economizers, sensors, start-up, and commissioning.",
       img: "https://images.unsplash.com/photo-1517420812314-8549b17939df?auto=format&fit=crop&q=80&w=600"
     },
     {
       title: "VRF / VRV Systems",
       icon: Wind,
-      desc: "Advanced variable refrigerant flow systems delivering intelligent temperature control and energy optimization for multi-zone buildings.",
+      desc: "Complete VRF system installation including fan coils, branch selectors, condensing units, refrigerant piping, insulation, controls integration, leak testing, vacuum, charging, and start-up.",
       divider: true,
       img: "https://images.unsplash.com/photo-1581092160562-40aa08e78837?auto=format&fit=crop&q=80&w=600"
     },
     {
-      title: "Ductwork Fabrication",
+      title: "Ductwork Fabrication & Installation",
       icon: Settings,
-      desc: "Precision-fabricated duct systems designed for maximum airflow efficiency and long-term durability in high-demand environments.",
+      desc: "Spiral duct, rectangular duct, ductboard systems, insulated duct (R6/R8), SMACNA compliant hangers, supports, and fire/smoke damper installation.",
       img: "/src/assets/images/ductwork_installation_1779256219811.png"
     },
     {
-      title: "DOAS / MAU Systems",
+      title: "DOAS / MAU & Ventilation Systems",
       icon: Zap,
-      desc: "Dedicated outdoor air and make-up air systems providing clean, balanced, and code-compliant ventilation for healthy interiors.",
+      desc: "Make-up air units, dedicated outdoor air systems, exhaust systems, smoke evacuation systems, rooftop curbs, and structural coordination.",
       img: "https://images.unsplash.com/photo-1504307651254-35680f3366d4?auto=format&fit=crop&q=80&w=600"
     },
     {
       title: "Hydronic Piping",
       icon: Droplets,
-      desc: "Efficient hot and chilled water piping systems engineered for large-scale commercial HVAC infrastructure and process cooling.",
+      desc: "Chilled water and hot water systems including pumps, valves, strainers, gauges, coil tie-ins, flushing, filling, and testing.",
       img: "/src/assets/images/commercial_chillers_room_1779256198807.png"
     },
     {
       title: "Controls Integration",
       icon: Cpu,
-      desc: "Smart building automation and controls integration for intelligent HVAC monitoring and automated energy management.",
+      desc: "BACnet integration, thermostats, VRF controls, VFDs, sensors, commissioning, and point-to-point testing.",
       img: "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=600"
     },
     {
-      title: "Test & Balance",
+      title: "TAB Coordination",
       icon: MonitorCheck,
-      desc: "Comprehensive airflow and hydronic balancing services ensuring peak HVAC system performance and regulatory compliance.",
+      desc: "Third-party certified testing, airflow balancing, hydronic balancing, and closeout reporting.",
       img: "https://images.unsplash.com/photo-1581093583449-84d79d5f75e7?auto=format&fit=crop&q=80&w=600"
     },
     {
-      title: "Demo & Replacement",
+      title: "Demolition & Replacement",
       icon: Trash2,
-      desc: "Safe and efficient demolition and replacement of aging mechanical systems with minimal operational disruption to your business.",
+      desc: "Equipment removal, roof drop coordination, disposal, duct modifications, and temporary cooling support.",
       img: "https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=600"
     },
     {
-      title: "Crane & Logistics",
+      title: "Crane & Rigging",
       icon: Anchor,
-      desc: "Professional heavy-equipment coordination, rigging, transport, and lifting solutions for complex mechanical projects.",
+      desc: "Crane planning, lift coordination, rigging plans, street closures, and safety supervision.",
       img: "https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=600"
     },
     {
-      title: "Service & Maintenance",
+      title: "Maintenance Services",
       icon: Wrench,
-      desc: "Preventive and emergency HVAC maintenance solutions maximizing equipment lifespan and operational efficiency 24/7.",
-      img: "https://images.unsplash.com/photo-1581094288338-2314dddb7ec3?auto=format&fit=crop&q=80&w=600"
+      desc: "Preventive maintenance programs, filter replacement, coil cleaning, emergency repairs, and multi-unit HVAC management.",
+      img: "https://images.unsplash.com/photo-1581092288338-2314dddb7ec3?auto=format&fit=crop&q=80&w=600"
     }
   ];
 
@@ -400,7 +400,7 @@ const ServicesCTA = () => (
               Get Free Quote <ArrowRight className="w-4 h-4" />
             </button>
             <a 
-              href="https://wa.me/15551234567?text=Hello Audwin Mech, I would like to discuss your HVAC and mechanical engineering services."
+              href="https://wa.me/19562306949?text=Hello Audwin Mech, I would like to discuss your HVAC and mechanical engineering services."
               target="_blank"
               className="glass hover:bg-white/10 text-white px-12 py-5 rounded-xl font-bold flex items-center justify-center gap-3 transition-all transform hover:scale-105 border-white/10 uppercase tracking-widest text-xs"
             >
