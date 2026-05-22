@@ -290,14 +290,14 @@ const ProjectsSection = () => {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--color-primary-blue)_0%,_transparent_70%)] opacity-5 pointer-events-none" />
       
       <div className="max-w-7xl mx-auto">
-        <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-8">
+        <div className="mb-16">
           <SectionHeading 
             title="Project Milestone Registry" 
             subtitle="Explore our recent engineering triumphs and infrastructure deliveries."
             centered={false}
           />
           
-          <div className="flex flex-wrap gap-2 p-1.5 glass-card rounded-2xl border-white/10 self-start">
+          <div className="flex flex-wrap gap-2 p-1.5 glass-card rounded-2xl border-white/10 w-fit">
             {categories.map((cat) => (
               <button
                 key={cat}

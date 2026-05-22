@@ -42,7 +42,7 @@ const About = () => {
           >
             {/* Image Frame */}
             <div className="relative rounded-[32px] overflow-hidden p-2 bg-white/[0.02] border border-white/10 shadow-2xl group">
-              <div className="relative rounded-[24px] overflow-hidden aspect-[16/10] bg-slate-950">
+              <div className="relative rounded-[24px] overflow-hidden h-[300px] sm:h-[400px] md:h-[500px] lg:h-[575px] w-full bg-slate-950">
                 <img 
                   src="https://images.unsplash.com/photo-1581092921461-7d15bb89a71e?auto=format&fit=crop&q=80&w=1000" 
                   alt="Engineering Team" 

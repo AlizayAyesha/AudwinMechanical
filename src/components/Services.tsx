@@ -244,6 +244,11 @@ const Services = () => {
           0% { transform: translateX(-100%) skewX(-15deg); }
           100% { transform: translateX(100%) skewX(-15deg); }
         }
+        @media (any-hover: hover) {
+          #services, #services * {
+            cursor: none !important;
+          }
+        }
       `}</style>
     </section>
   );

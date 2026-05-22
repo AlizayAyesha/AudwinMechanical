@@ -82,7 +82,7 @@ const Partnership = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="relative rounded-[32px] overflow-hidden p-2 bg-white/[0.02] border border-white/10 shadow-2xl hover:border-[#1aa7e1]/30 transition-colors duration-500"
             >
-              <div className="relative rounded-[24px] overflow-hidden aspect-[4/3] sm:aspect-video lg:aspect-[4/5] bg-slate-950">
+              <div className="relative rounded-[24px] overflow-hidden aspect-[1/1] sm:aspect-[4/3] lg:aspect-[2/3] bg-slate-950">
                 <img 
                   src="https://images.unsplash.com/photo-1541888946425-d81bb19480c5?auto=format&fit=crop&q=80&w=800" 
                   alt="Commercial HVAC construction site" 
